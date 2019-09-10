@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 
 class StreamList extends Component {
   componentDidMount() {
+    console.log("STREAM LIST");
     this.props.fetchStreams();
   }
 
@@ -12,11 +13,18 @@ class StreamList extends Component {
     if (stream.userId === this.props.currentUserId) {
       return (
         <div className="right floated content">
-         <Link to={`/streams/edit/${stream.id}`} className="ui button primary">Edit</Link>
-          <button className="ui button negative">Delete</button>
+          <Link to={`/streams/edit/${stream.id}`} className="ui button primary">
+            Edit
+          </Link>
+          <Link
+            to={`/streams/delete/${stream.id}`}
+            className="ui button negative"
+          >
+            Delete
+          </Link>
         </div>
       );
-    } 
+    }
   }
 
   renderList() {
@@ -26,7 +34,7 @@ class StreamList extends Component {
           {this.renderAdmin(stream)}
           <i className="large middle aligned icon camera" />
           <div className="content">
-            {stream.title}
+            <Link to={`/streams/${stream.id}`} className="header ">{stream.title}</Link>
 
             <div className="description">{stream.description}</div>
           </div>
@@ -45,7 +53,7 @@ class StreamList extends Component {
         </div>
       );
     }
-  } 
+  }
 
   render() {
     return (

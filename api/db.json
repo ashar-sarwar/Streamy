@@ -1,42 +1,22 @@
 {
   "streams": [
     {
-      "title": "ashas",
-      "description": "sdsadsa",
+      "title": "asdadjsaj",
+      "description": "kjdlsajdlksald",
+      "userId": "111325474982827515677",
       "id": 1
     },
     {
-      "title": "ashas",
-      "description": "sdsadsa",
+      "title": "hikqwdkjajl;dskld",
+      "description": "alkhduqidiqpidpoqJa",
+      "userId": "111325474982827515677",
       "id": 2
     },
     {
-      "title": "jwqdisajsjaksjakj",
-      "description": "akldjkjlksakdpspald'psla;dl;s",
+      "title": "jioudf9qudicp9owioj",
+      "description": "ujcwioqahcjHMCsj,mzncmna,cmns,akcnlkmcqwlk",
+      "userId": "111325474982827515677",
       "id": 3
-    },
-    {
-      "title": "adsadsads",
-      "description": "awsdqwdqadda",
-      "id": 4
-    },
-    {
-      "title": "New stream with userID",
-      "description": "This is a new stream",
-      "userId": "111325474982827515677",
-      "id": 5
-    },
-    {
-      "title": "sksxszlkxlzsmk",
-      "description": "sjaocijkckskclsk;cppas;kc;a",
-      "userId": "111325474982827515677",
-      "id": 6
-    },
-    {
-      "title": "yoyiyooooysa",
-      "description": "ksajdlksadow9uszmkcksuwpoaskm",
-      "userId": "111325474982827515677",
-      "id": 7
     }
   ]
 }
